@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Warna Kopitiam | Seremban Heritage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .hero-font { font-family: 'Playfair Display', serif; }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+    <nav class="fixed w-full z-50 glass border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tighter text-orange-700">7 WARNA <span class="text-stone-500 font-light">KOPITIAM</span></div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-orange-600 transition">Home</a>
+                <a href="#about" class="hover:text-orange-600 transition">Our Story</a>
+                <a href="#menu" class="hover:text-orange-600 transition">Menu</a>
+                <a href="#contact" class="px-5 py-2 bg-orange-700 text-white rounded-full hover:bg-orange-800 transition">Visit Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80" class="w-full h-full object-cover opacity-20" alt="Cafe Background">
+        </div>
+        <div class="relative z-10 text-center px-4" data-aos="fade-up" data-aos-duration="1500">
+            <span class="uppercase tracking-[0.3em] text-sm mb-4 block text-orange-700 font-bold">Authentic Seremban Flavors</span>
+            <h1 class="hero-font text-6xl md:text-8xl mb-6">7 Warna Kopitiam</h1>
+            <p class="max-w-xl mx-auto text-lg text-stone-600 mb-8">Experience the colorful tradition of Malaysian coffee culture in the heart of Seremban.</p>
+            <a href="#menu" class="inline-block border-2 border-stone-800 px-10 py-4 font-bold hover:bg-stone-800 hover:text-white transition-all duration-500">VIEW THE MENU</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div data-aos="fade-right">
+                <img src="https://images.unsplash.com/photo-1559925393-8be0ec418cd9?auto=format&fit=crop&q=80" class="rounded-2xl shadow-2xl" alt="Interior">
+            </div>
+            <div data-aos="fade-left">
+                <h2 class="hero-font text-4xl mb-6">Where Tradition Meets Every Color.</h2>
+                <p class="text-stone-600 leading-relaxed mb-6">
+                    Named after the vibrant diversity of our community, 7 Warna Kopitiam serves as a bridge between the old-world charm of Seremban and the modern palate. Every cup of Hainan coffee we brew tells a story of heritage.
+                </p>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-4 bg-white shadow-sm rounded-lg border-l-4 border-orange-700">
+                        <h4 class="font-bold">Locally Sourced</h4>
+                        <p class="text-xs text-stone-500">Best beans in Negeri Sembilan</p>
+                    </div>
+                    <div class="p-4 bg-white shadow-sm rounded-lg border-l-4 border-orange-700">
+                        <h4 class="font-bold">Family Recipe</h4>
+                        <p class="text-xs text-stone-500">Passed down for generations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<section id="menu" class="py-24 bg-stone-900 text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="hero-font text-5xl mb-4">The Kopitiam Classics</h2>
+                <div class="h-1 w-20 bg-orange-700 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="group cursor-pointer" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="overflow-hidden rounded-xl mb-4">
+                        <img src="https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?auto=format&fit=crop&q=80" class="w-full h-64 object-cover group-hover:scale-110 transition duration-700" alt="Kaya Toast">
+                    </div>
+                    <h3 class="text-xl font-bold italic">Signature Kaya Toast</h3>
+                    <p class="text-stone-400">Crispy charcoal-grilled bread with homemade pandan kaya.</p>
+                </div>
+                <div class="group cursor-pointer" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="overflow-hidden rounded-xl mb-4">
+                        <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80" class="w-full h-64 object-cover group-hover:scale-110 transition duration-700" alt="Nasi Lemak">
+                    </div>
+                    <h3 class="text-xl font-bold italic">Nasi Lemak Bungkus</h3>
+                    <p class="text-stone-400">Fragrant coconut rice with spicy sambal and crispy anchovies.</p>
+                </div>
+                <div class="group cursor-pointer" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="overflow-hidden rounded-xl mb-4">
+                        <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&q=80" class="w-full h-64 object-cover group-hover:scale-110 transition duration-700" alt="Kopi">
+                    </div>
+                    <h3 class="text-xl font-bold italic">Kopi O Kaw</h3>
+                    <p class="text-stone-400">Strong, dark, traditional Hainanese coffee roasted to perfection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-12 bg-stone-100">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="hero-font text-3xl mb-8">Visit Us in Seremban</h2>
+            <p class="text-stone-600 mb-2 font-bold">7 Warna Kopitiam</p>
+            <p class="text-stone-500 mb-6 italic text-sm">Open Daily: 7:00 AM - 5:00 PM</p>
+            <p class="text-stone-400 text-xs">© 2026 7 Warna Kopitiam. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            easing: 'ease-out-quart'
+        });
+    </script>
+</body>
+</html>
